@@ -1,0 +1,50 @@
+{ 
+    "question_1": [
+        "Market", 
+        "Weather Patterns", 
+        "Diseases & Pests", 
+        "Farm Inputs", 
+        "Decision making & Planning", 
+        "Changing consumer demands"   
+    ], 
+    "question_2": [
+        "Crop Yields", 
+        "Animal Health & Productivity", 
+        "Financial Metrics", 
+        "Customer Satisfaction"
+    ], 
+    "question_3": [
+        "Precision Agriculture Tools", 
+        "Data Analytics Software", 
+        "Irrigation Systems", 
+        "Advanced Genetics for Crops or Livestock"
+    ], 
+    "question_4": [
+        "Weather Apps", 
+        "Local News", 
+        "Specialized Agricultural sources"
+    ], 
+    "question_5": [
+        "Direct Sales to Customers", 
+        "Participation in farmers' markets", 
+        "Working with distributors or wholesalers", 
+        "Online marketplaces"
+    ], 
+    "question_6": [
+        "Working with other farmers to share equipment or knowledge.", 
+        "Participating in industry associations or groups.", 
+        "Partnering with local businesses or organizations to market your products."
+    ], 
+    "question_7": [
+        "Improving access to healthy food options", 
+        "Increasing education and awareness about nutrition and agriculture", 
+        "Promoting sustainable farming practices",
+        "Investing in community development initiatives"
+    ], 
+    "question_8": [
+        "Increasing efficiency or productivity", 
+        "Reducing waste or environmental impact", 
+        "Enhancing animal welfare or food safety",
+        "Exploring new technologies or markets"
+    ]
+}

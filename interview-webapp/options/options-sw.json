@@ -1,0 +1,50 @@
+{
+    "question_1": [
+        "Soko",
+        "Mifumo ya Hali ya Hewa",
+        "Magonjwa na Wadudu",
+        "Vifaa vya Kilimo",
+        "Uamuzi na Mpango",
+        "Mahitaji ya Wateja yanayobadilika"
+    ], 
+    "question_2": [
+        "Mavuno ya Mazao",
+        "Afya na Uzalishaji wa Wanyama",
+        "Takwimu za Fedha",
+        "Kuridhika kwa Wateja"
+    ], 
+    "question_3": [
+        "Zana za Kilimo cha Ufundi",
+        "Programu za Takwimu",
+        "Mfumo wa Umwagiliaji",
+        "Jenetiki za hali ya juu kwa Mazao au Wanyama"
+    ],
+    "question_4": [
+        "Programu za Hali ya Hewa",
+        "Habari za Mitaa",
+        "Vyanzo Maalum vya Kilimo"
+    ], 
+    "question_5": [
+        "Uuzaji wa moja kwa moja kwa Wateja",
+        "Kushiriki katika masoko ya wakulima",
+        "Kufanya kazi na wasambazaji au wauzaji",
+        "Masoko ya mtandaoni"
+    ], 
+    "question_6": [
+        "Kufanya kazi na wakulima wengine kushiriki vifaa au maarifa.",
+        "Kushiriki katika vyama au vikundi vya tasnia.",
+        "Kushirikiana na biashara au shirika la ndani kutangaza bidhaa zako."
+    ], 
+    "question_7": [
+        "Kuboresha upatikanaji wa chakula chenye afya",
+        "Kuongeza elimu na ufahamu juu ya lishe na kilimo",
+        "Kukuza mazoea endelevu ya kilimo",
+        "Kuwekeza katika miradi ya maendeleo ya jamii"
+    ], 
+    "question_8": [
+        "Kuongeza ufanisi au uzalishaji",
+        "Kupunguza taka au athari kwa mazingira",
+        "Kuongeza ustawi wa wanyama au usalama wa chakula",
+        "Kutafiti teknolojia au masoko mapya"
+    ]            
+}
