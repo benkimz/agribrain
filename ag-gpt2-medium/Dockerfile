@@ -3,7 +3,7 @@ FROM tensorflow/serving:latest
 RUN apt-get update && \
     apt-get install -y git
 
-RUN git clone --depth=0 https://huggingface.co/gpt2-medium
+RUN git clone https://huggingface.co/gpt2-medium
 
 ENV MODEL_NAME=gpt2-medium
 ENV MODEL_BASE_PATH=/models/${MODEL_NAME}
