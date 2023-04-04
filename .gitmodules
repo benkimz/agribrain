@@ -1,0 +1,3 @@
+[submodule "agpipeline"]
+	path = agpipeline
+	url = https://github.com/benkimz/agribrain-pipeline.git
