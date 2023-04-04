@@ -1,0 +1,890 @@
+,county,year,area (HA),production (MT),yield (MT/HA),crop
+0,Baringo,2012,1110.0,906.0,0.82,sorghum
+1,Bomet,2012,426.0,584.0,1.37,sorghum
+2,Bungoma,2012,1034.0,1154.0,1.12,sorghum
+3,Busia,2012,7683.0,8627.0,1.12,sorghum
+4,Elgeyo/Marakwet,2012,1187.0,2448.0,2.06,sorghum
+5,Embu,2012,5824.0,4154.0,0.71,sorghum
+6,Garissa,2012,120.0,9.0,0.08,sorghum
+7,Homabay,2012,17155.0,23955.0,1.4,sorghum
+8,Isiolo,2012,46.0,21.0,0.46,sorghum
+9,Kajiado,2012,69.0,16.0,0.24,sorghum
+10,Kakamega,2012,347.0,331.0,0.95,sorghum
+11,Kericho,2012,490.0,686.0,1.4,sorghum
+12,Kiambu,2012,0.0,0.0,0.0,sorghum
+13,Kilifi,2012,542.0,131.0,0.24,sorghum
+14,Kirinyaga,2012,1300.0,944.0,0.73,sorghum
+15,Kisii,2012,125.0,137.0,1.09,sorghum
+16,Kisumu,2012,11645.0,11823.0,1.02,sorghum
+17,Kitui,2012,58532.0,20430.0,0.35,sorghum
+18,Kwale,2012,958.0,196.0,0.2,sorghum
+19,Laikipia,2012,1050.0,1417.0,1.35,sorghum
+20,Lamu,2012,466.0,253.0,0.54,sorghum
+21,Machakos,2012,11539.0,4928.0,0.43,sorghum
+22,Makueni,2012,22739.0,11562.0,0.51,sorghum
+23,Mandera,2012,285.0,11.0,0.04,sorghum
+24,Marsabit,2012,49.0,13.0,0.27,sorghum
+25,Meru,2012,14745.0,15421.0,1.05,sorghum
+26,Migori,2012,7215.0,9489.0,1.32,sorghum
+27,Mombasa,2012,8.0,4.0,0.45,sorghum
+28,Murang'a,2012,437.0,217.0,0.5,sorghum
+29,Nairobi ,2012,18.0,4.0,0.22,sorghum
+30,Nakuru,2012,730.0,924.0,1.27,sorghum
+31,Nandi,2012,160.0,209.0,1.3,sorghum
+32,Narok,2012,1115.0,825.0,0.74,sorghum
+33,Nyamira,2012,279.0,340.0,1.22,sorghum
+34,Nyandarua,2012,24.0,21.0,0.88,sorghum
+35,Nyeri,2012,21.0,9.0,0.44,sorghum
+36,Samburu,2012,225.0,925.0,4.11,sorghum
+37,Siaya,2012,19185.0,19707.0,1.03,sorghum
+38,Taita/Taveta,2012,290.0,104.0,0.36,sorghum
+39,Tana River,2012,289.0,37.0,0.13,sorghum
+40,Tharaka-Nthi,2012,27331.0,17779.0,0.65,sorghum
+41,Trans Nzoia,2012,327.0,378.0,1.16,sorghum
+42,Turkana,2012,3974.0,3209.0,0.81,sorghum
+43,Uasin Gishu,2012,109.0,99.0,0.91,sorghum
+44,Vihiga,2012,344.0,300.0,0.87,sorghum
+45,Wajir,2012,125.0,63.0,0.5,sorghum
+46,West Pokot,2012,1732.0,1521.0,0.88,sorghum
+47,Baringo,2013,948.0,822.0,0.87,sorghum
+48,Bomet,2013,660.0,584.0,0.88,sorghum
+49,Bungoma,2013,1472.0,1594.0,1.08,sorghum
+50,Busia,2013,12809.0,17752.0,1.39,sorghum
+51,Elgeyo/Marakwet,2013,917.0,1772.0,1.93,sorghum
+52,Embu,2013,5910.0,5942.0,1.01,sorghum
+53,Garissa,2013,48.0,11.0,0.23,sorghum
+54,Homabay,2013,17665.0,23470.0,1.33,sorghum
+55,Isiolo,2013,144.0,89.0,0.62,sorghum
+56,Kajiado,2013,115.0,82.0,0.71,sorghum
+57,Kakamega,2013,1309.0,940.0,0.72,sorghum
+58,Kericho,2013,726.0,1403.0,1.93,sorghum
+59,Kiambu,2013,0.0,0.0,0.0,sorghum
+60,Kilifi,2013,513.0,187.0,0.36,sorghum
+61,Kirinyaga,2013,387.0,229.0,0.59,sorghum
+62,Kisii,2013,101.0,373.0,3.69,sorghum
+63,Kisumu,2013,11082.0,20264.0,1.83,sorghum
+64,Kitui,2013,76135.0,25458.0,0.33,sorghum
+65,Kwale,2013,1003.0,810.0,0.81,sorghum
+66,Laikipia,2013,55.0,25.0,0.45,sorghum
+67,Lamu,2013,1326.0,1086.0,0.82,sorghum
+68,Machakos,2013,11664.0,13065.0,1.12,sorghum
+69,Makueni,2013,15821.0,7631.0,0.48,sorghum
+70,Mandera,2013,1194.0,388.0,0.33,sorghum
+71,Marsabit,2013,12.0,2.0,0.2,sorghum
+72,Meru,2013,11555.0,7663.0,0.66,sorghum
+73,Migori,2013,5770.0,3918.0,0.68,sorghum
+74,Mombasa,2013,7.0,4.0,0.51,sorghum
+75,Murang'a,2013,174.0,99.0,0.57,sorghum
+76,Nairobi ,2013,5.0,1.0,0.29,sorghum
+77,Nakuru,2013,1665.0,2235.0,1.34,sorghum
+78,Nandi,2013,211.0,347.0,1.65,sorghum
+79,Narok,2013,810.0,811.0,1.0,sorghum
+80,Nyamira,2013,270.0,277.0,1.03,sorghum
+81,Nyandarua,2013,103.0,93.0,0.9,sorghum
+82,Nyeri,2013,174.0,99.0,0.57,sorghum
+83,Samburu,2013,9.0,10.0,1.06,sorghum
+84,Siaya,2013,11630.0,14358.0,1.23,sorghum
+85,Taita/Taveta,2013,770.0,90.0,0.12,sorghum
+86,Tana River,2013,131.0,78.0,0.59,sorghum
+87,Tharaka-Nthi,2013,24008.0,8457.0,0.35,sorghum
+88,Trans Nzoia,2013,202.0,201.0,1.0,sorghum
+89,Turkana,2013,1903.0,2481.0,1.3,sorghum
+90,Uasin Gishu,2013,110.0,1959.0,17.81,sorghum
+91,Vihiga,2013,410.0,471.0,1.15,sorghum
+92,Wajir,2013,366.0,131.0,0.36,sorghum
+93,West Pokot,2013,1030.0,898.0,0.87,sorghum
+94,Baringo,2014,849.0,763.0,0.9,sorghum
+95,Bomet,2014,442.0,489.0,1.1,sorghum
+96,Bungoma,2014,,,1.0,sorghum
+97,Busia,2014,,,1.3,sorghum
+98,Elgeyo/Marakwet,2014,769.0,829.0,1.1,sorghum
+99,Embu,2014,,,1.0,sorghum
+100,Garissa,2014,35.0,34.0,1.0,sorghum
+101,Homabay,2014,,,1.6,sorghum
+102,Isiolo,2014,45.0,24.0,0.5,sorghum
+103,Kajiado,2014,55.0,31.0,0.6,sorghum
+104,Kakamega,2014,830.0,774.0,0.9,sorghum
+105,Kericho,2014,957.0,,1.8,sorghum
+106,Kiambu,2014,0.0,0.0,0.0,sorghum
+107,Kilifi,2014,363.0,98.0,0.3,sorghum
+108,Kirinyaga,2014,276.0,139.0,0.5,sorghum
+109,Kisii,2014,113.0,515.0,4.6,sorghum
+110,Kisumu,2014,,,1.7,sorghum
+111,Kitui,2014,,,0.6,sorghum
+112,Kwale,2014,153.0,60.0,0.4,sorghum
+113,Laikipia,2014,57.0,26.0,0.5,sorghum
+114,Lamu,2014,273.0,276.0,1.0,sorghum
+115,Machakos,2014,,,0.8,sorghum
+116,Makueni,2014,,,0.3,sorghum
+117,Mandera,2014,961.0,125.0,0.1,sorghum
+118,Marsabit,2014,13.0,4.0,0.3,sorghum
+119,Meru,2014,,,0.7,sorghum
+120,Migori,2014,,,1.0,sorghum
+121,Mombasa,2014,0.0,0.0,0.0,sorghum
+122,Murang'a,2014,204.0,155.0,0.8,sorghum
+123,Nairobi ,2014,913.0,111.0,0.1,sorghum
+124,Nakuru,2014,,,1.2,sorghum
+125,Nandi,2014,181.0,307.0,1.7,sorghum
+126,Narok,2014,,,0.8,sorghum
+127,Nyamira,2014,93.0,88.0,0.9,sorghum
+128,Nyandarua,2014,35.0,25.0,0.7,sorghum
+129,Nyeri,2014,204.0,155.0,0.8,sorghum
+130,Samburu,2014,10.0,12.0,1.2,sorghum
+131,Siaya,2014,,,0.7,sorghum
+132,Taita/Taveta,2014,474.0,75.0,0.2,sorghum
+133,Tana River,2014,131.0,78.0,0.6,sorghum
+134,Tharaka-Nthi,2014,,,0.5,sorghum
+135,Trans Nzoia,2014,189.0,216.0,1.1,sorghum
+136,Turkana,2014,,,1.0,sorghum
+137,Uasin Gishu,2014,,,1.0,sorghum
+138,Vihiga,2014,358.0,406.0,1.1,sorghum
+139,Wajir,2014,440.0,80.0,0.2,sorghum
+140,West Pokot,2014,560.0,482.0,0.9,sorghum
+141,Baringo,2015,,924.0,0.8,sorghum
+142,Bomet,2015,888.0,,1.6,sorghum
+143,Bungoma,2015,,,1.0,sorghum
+144,Busia,2015,,,1.1,sorghum
+145,Elgeyo/Marakwet,2015,764.0,946.0,1.2,sorghum
+146,Embu,2015,,,1.6,sorghum
+147,Garissa,2015,44.0,32.0,0.7,sorghum
+148,Homabay,2015,,,2.0,sorghum
+149,Isiolo,2015,125.0,62.0,0.5,sorghum
+150,Kajiado,2015,46.0,93.0,2.0,sorghum
+151,Kakamega,2015,,,1.9,sorghum
+152,Kericho,2015,866.0,,1.9,sorghum
+153,Kiambu,2015,114.0,110.0,1.0,sorghum
+154,Kilifi,2015,64.0,64.0,1.0,sorghum
+155,Kirinyaga,2015,253.0,304.0,1.2,sorghum
+156,Kisii,2015,135.0,222.0,1.6,sorghum
+157,Kisumu,2015,,,1.4,sorghum
+158,Kitui,2015,,,0.8,sorghum
+159,Kwale,2015,151.0,131.0,0.9,sorghum
+160,Laikipia,2015,609.0,,1.7,sorghum
+161,Lamu,2015,284.0,311.0,1.1,sorghum
+162,Machakos,2015,,,1.1,sorghum
+163,Makueni,2015,,,1.3,sorghum
+164,Mandera,2015,771.0,265.0,0.3,sorghum
+165,Marsabit,2015,35.0,43.0,1.2,sorghum
+166,Meru,2015,,,1.6,sorghum
+167,Migori,2015,,,1.3,sorghum
+168,Mombasa,2015,2.0,1.0,0.7,sorghum
+169,Murang'a,2015,194.0,155.0,0.8,sorghum
+170,Nairobi ,2015,16.0,17.0,1.1,sorghum
+171,Nakuru,2015,725.0,732.0,1.0,sorghum
+172,Nandi,2015,199.0,321.0,1.6,sorghum
+173,Narok,2015,,,0.8,sorghum
+174,Nyamira,2015,88.0,79.0,0.9,sorghum
+175,Nyandarua,2015,28.0,28.0,1.0,sorghum
+176,Nyeri,2015,0.0,0.0,0.0,sorghum
+177,Samburu,2015,0.0,0.0,0.0,sorghum
+178,Siaya,2015,,,1.7,sorghum
+179,Taita/Taveta,2015,304.0,258.0,0.8,sorghum
+180,Tana River,2015,148.0,138.0,0.9,sorghum
+181,Tharaka-Nthi,2015,,,1.2,sorghum
+182,Trans Nzoia,2015,188.0,325.0,1.7,sorghum
+183,Turkana,2015,,,0.9,sorghum
+184,Uasin Gishu,2015,92.0,92.0,1.0,sorghum
+185,Vihiga,2015,406.0,407.0,1.0,sorghum
+186,Wajir,2015,0.0,0.0,0.0,sorghum
+187,West Pokot,2015,391.0,391.0,1.0,sorghum
+188,Baringo,2016,,,2.8,sorghum
+189,Bomet,2016,,,2.0,sorghum
+190,Bungoma,2016,429.0,321.0,0.7,sorghum
+191,Busia,2016,,,1.8,sorghum
+192,Elgeyo/Marakwet,2016,670.0,,1.5,sorghum
+193,Embu,2016,,,1.8,sorghum
+194,Garissa,2016,44.0,20.0,0.5,sorghum
+195,Homabay,2016,,,1.1,sorghum
+196,Isiolo,2016,79.0,39.0,0.5,sorghum
+197,Kajiado,2016,56.0,63.0,1.1,sorghum
+198,Kakamega,2016,504.0,563.0,1.1,sorghum
+199,Kericho,2016,588.0,877.0,1.5,sorghum
+200,Kiambu,2016,75.0,49.0,0.7,sorghum
+201,Kilifi,2016,56.0,30.0,0.5,sorghum
+202,Kirinyaga,2016,80.0,65.0,0.8,sorghum
+203,Kisii,2016,161.0,162.0,1.0,sorghum
+204,Kisumu,2016,,,0.3,sorghum
+205,Kitui,2016,,,0.2,sorghum
+206,Kwale,2016,419.0,109.0,0.3,sorghum
+207,Laikipia,2016,621.0,,1.7,sorghum
+208,Lamu,2016,6.0,5.0,0.8,sorghum
+209,Machakos,2016,,,1.0,sorghum
+210,Makueni,2016,,,1.0,sorghum
+211,Mandera,2016,,267.0,0.2,sorghum
+212,Marsabit,2016,15.0,1.0,0.1,sorghum
+213,Meru,2016,,,1.3,sorghum
+214,Migori,2016,418.0,260.0,0.6,sorghum
+215,Mombasa,2016,0.0,0.0,0.0,sorghum
+216,Murang'a,2016,592.0,242.0,0.4,sorghum
+217,Nairobi ,2016,16.0,3.0,0.2,sorghum
+218,Nakuru,2016,905.0,922.0,1.0,sorghum
+219,Nandi,2016,168.0,193.0,1.1,sorghum
+220,Narok,2016,,,1.4,sorghum
+221,Nyamira,2016,73.0,61.0,0.8,sorghum
+222,Nyandarua,2016,12.0,22.0,1.8,sorghum
+223,Nyeri,2016,0.0,0.0,0.0,sorghum
+224,Samburu,2016,0.0,0.0,0.0,sorghum
+225,Siaya,2016,,,0.8,sorghum
+226,Taita/Taveta,2016,264.0,140.0,0.5,sorghum
+227,Tana River,2016,115.0,52.0,0.5,sorghum
+228,Tharaka-Nthi,2016,,,0.7,sorghum
+229,Trans Nzoia,2016,292.0,275.0,0.9,sorghum
+230,Turkana,2016,,,0.8,sorghum
+231,Uasin Gishu,2016,65.0,114.0,1.8,sorghum
+232,Vihiga,2016,232.0,235.0,1.0,sorghum
+233,Wajir,2016,0.0,0.0,0.0,sorghum
+234,West Pokot,2016,413.0,373.0,0.9,sorghum
+235,Bungoma,2012,321.0,920.0,2.9,wheat
+236,Elgeyo Marakwet,2012,944.0,,3.1,wheat
+237,Kericho,2012,58.0,210.0,3.6,wheat
+238,Laikipia,2012,,,3.2,wheat
+239,Marsabit,2012,60.0,206.0,3.4,wheat
+240,Meru,2012,,,2.7,wheat
+241,Nakuru,2012,,,3.2,wheat
+242,Nandi,2012,54.0,179.0,3.3,wheat
+243,Narok,2012,,,3.5,wheat
+244,Nyamira,2012,124.0,320.0,2.6,wheat
+245,Nyandarua,2012,,,4.3,wheat
+246,Nyeri,2012,,,2.7,wheat
+247,Samburu,2012,800.0,,4.1,wheat
+248,Trans Nzoia,2012,,,2.6,wheat
+249,Uasin Gishu,2012,,,2.5,wheat
+250,Bungoma,2013,350.0,983.0,2.8,wheat
+251,Elgeyo Marakwet,2013,81.0,219.0,2.7,wheat
+252,Kericho,2013,40.0,170.0,4.3,wheat
+253,Laikipia,2013,,,4.0,wheat
+254,Marsabit,2013,42.0,108.0,2.6,wheat
+255,Meru,2013,,,4.4,wheat
+256,Nakuru,2013,,,2.6,wheat
+257,Nandi,2013,41.0,132.0,3.2,wheat
+258,Narok,2013,,,2.8,wheat
+259,Nyamira,2013,96.0,210.0,2.2,wheat
+260,Nyandarua,2013,,,2.5,wheat
+261,Nyeri,2013,,,3.1,wheat
+262,Samburu,2013,450.0,,4.0,wheat
+263,Trans Nzoia,2013,,,2.5,wheat
+264,Uasin Gishu,2013,,,2.7,wheat
+265,Bungoma,2014,305.0,899.0,2.9,wheat
+266,Elgeyo Marakwet,2014,105.0,284.0,2.7,wheat
+267,Kericho,2014,,,0.0,wheat
+268,Laikipia,2014,,,3.2,wheat
+269,Marsabit,2014,37.0,93.0,2.5,wheat
+270,Meru,2014,,,3.4,wheat
+271,Nakuru,2014,,,2.7,wheat
+272,Nandi,2014,43.0,149.0,3.5,wheat
+273,Narok,2014,,,2.8,wheat
+274,Nyamira,2014,68.0,193.0,2.8,wheat
+275,Nyandarua,2014,,,2.7,wheat
+276,Nyeri,2014,,,2.3,wheat
+277,Samburu,2014,600.0,,3.1,wheat
+278,Trans Nzoia,2014,,,2.6,wheat
+279,Uasin Gishu,2014,,,2.6,wheat
+280,Bungoma,2015,30.0,96.0,3.2,wheat
+281,Elgeyo Marakwet,2015,415.0,837.0,2.0,wheat
+282,Kericho,2015,,,0.0,wheat
+283,Laikipia,2015,,,4.0,wheat
+284,Marsabit,2015,31.0,56.0,1.8,wheat
+285,Meru,2015,,,4.9,wheat
+286,Nakuru,2015,,,3.3,wheat
+287,Nandi,2015,32.0,88.0,2.8,wheat
+288,Narok,2015,,,3.7,wheat
+289,Nyamira,2015,58.0,154.0,2.7,wheat
+290,Nyandarua,2015,,,2.4,wheat
+291,Nyeri,2015,,,2.5,wheat
+292,Samburu,2015,300.0,878.0,2.9,wheat
+293,Trans Nzoia,2015,380.0,954.0,2.5,wheat
+294,Uasin Gishu,2015,,,2.3,wheat
+295,Bungoma,2016,30.0,90.0,3.0,wheat
+296,Elgeyo Marakwet,2016,435.0,849.0,2.0,wheat
+297,Kericho,2016,,,0.0,wheat
+298,Laikipia,2016,,,3.4,wheat
+299,Marsabit,2016,28.0,76.0,2.7,wheat
+300,Meru,2016,,,3.1,wheat
+301,Nakuru,2016,,,3.5,wheat
+302,Nandi,2016,30.0,94.0,3.1,wheat
+303,Narok,2016,,,2.5,wheat
+304,Nyamira,2016,89.0,297.0,3.3,wheat
+305,Nyandarua,2016,,,2.5,wheat
+306,Nyeri,2016,,,4.4,wheat
+307,Samburu,2016,400.0,820.0,2.1,wheat
+308,Trans Nzoia,2016,376.0,,2.7,wheat
+309,Uasin Gishu,2016,,,2.7,wheat
+310,Baringo,2012,,,1.81,maize
+311,Bomet,2012,,,2.24,maize
+312,Bungoma,2012,,,2.73,maize
+313,Busia,2012,,,1.19,maize
+314,Elgeyo/Marakwet,2012,,,2.92,maize
+315,Embu,2012,,,1.03,maize
+316,Garissa,2012,433.0,411.0,0.95,maize
+317,Homabay,2012,,,1.45,maize
+318,Isiolo,2012,987.0,979.0,0.99,maize
+319,Kajiado,2012,,,0.07,maize
+320,Kakamega,2012,,,2.26,maize
+321,Kericho,2012,,,2.35,maize
+322,Kiambu,2012,,,0.62,maize
+323,Kilifi,2012,,,0.26,maize
+324,Kirinyaga,2012,,,1.46,maize
+325,Kisii,2012,,,1.64,maize
+326,Kisumu,2012,,,2.92,maize
+327,Kitui,2012,,,0.72,maize
+328,Kwale,2012,,,0.33,maize
+329,Laikipia,2012,,,3.31,maize
+330,Lamu,2012,,,0.96,maize
+331,Machakos,2012,,,0.61,maize
+332,Makueni,2012,,,0.7,maize
+333,Mandera,2012,215.0,,0.0,maize
+334,Marsabit,2012,274.0,214.0,0.78,maize
+335,Meru,2012,,,1.48,maize
+336,Migori,2012,,,1.24,maize
+337,Mombasa,2012,,451.0,0.45,maize
+338,Murang'a,2012,,,0.89,maize
+339,Nairobi ,2012,,852.0,0.84,maize
+340,Nakuru,2012,,,3.33,maize
+341,Nandi,2012,,,2.96,maize
+342,Narok,2012,,,1.68,maize
+343,Nyamira,2012,,,1.78,maize
+344,Nyandarua,2012,,,1.4,maize
+345,Nyeri,2012,,,0.78,maize
+346,Samburu,2012,,,0.83,maize
+347,Siaya,2012,,,1.28,maize
+348,Taita/Taveta,2012,,,0.37,maize
+349,Tana River,2012,,,0.85,maize
+350,Tharaka-Nthi,2012,,,1.43,maize
+351,Trans Nzoia,2012,,,4.14,maize
+352,Turkana,2012,,,1.57,maize
+353,Uasin Gishu,2012,,,2.82,maize
+354,Vihiga,2012,,,1.55,maize
+355,Wajir,2012,268.0,191.0,0.71,maize
+356,West Pokot,2012,,,3.35,maize
+357,Baringo,2013,,,1.92,maize
+358,Bomet,2013,,,2.36,maize
+359,Bungoma,2013,,,2.39,maize
+360,Busia,2013,,,1.38,maize
+361,Elgeyo/Marakwet,2013,,,3.17,maize
+362,Embu,2013,,,1.31,maize
+363,Garissa,2013,205.0,199.0,0.97,maize
+364,Homabay,2013,,,1.48,maize
+365,Isiolo,2013,,,1.06,maize
+366,Kajiado,2013,,,1.83,maize
+367,Kakamega,2013,,,2.35,maize
+368,Kericho,2013,,,1.94,maize
+369,Kiambu,2013,,,0.5,maize
+370,Kilifi,2013,647.0,310.0,0.48,maize
+371,Kirinyaga,2013,,,1.2,maize
+372,Kisii,2013,,,2.06,maize
+373,Kisumu,2013,,,1.92,maize
+374,Kitui,2013,,,0.4,maize
+375,Kwale,2013,,,0.33,maize
+376,Laikipia,2013,,,0.88,maize
+377,Lamu,2013,,,1.58,maize
+378,Machakos,2013,,,0.69,maize
+379,Makueni,2013,,,0.45,maize
+380,Mandera,2013,,,0.67,maize
+381,Marsabit,2013,990.0,987.0,1.0,maize
+382,Meru,2013,,,0.97,maize
+383,Migori,2013,,,0.77,maize
+384,Mombasa,2013,,406.0,0.41,maize
+385,Murang'a,2013,,,0.93,maize
+386,Nairobi ,2013,,802.0,0.79,maize
+387,Nakuru,2013,,,2.55,maize
+388,Nandi,2013,,,2.41,maize
+389,Narok,2013,,,2.77,maize
+390,Nyamira,2013,,,1.17,maize
+391,Nyandarua,2013,,,1.5,maize
+392,Nyeri,2013,,,0.78,maize
+393,Samburu,2013,,,1.3,maize
+394,Siaya,2013,,,1.61,maize
+395,Taita/Taveta,2013,,,1.07,maize
+396,Tana River,2013,,,1.15,maize
+397,Tharaka-Nthi,2013,,,0.82,maize
+398,Trans Nzoia,2013,,,4.04,maize
+399,Turkana,2013,,,1.87,maize
+400,Uasin Gishu,2013,,,4.09,maize
+401,Vihiga,2013,,,1.5,maize
+402,Wajir,2013,550.0,375.0,0.68,maize
+403,West Pokot,2013,,,2.82,maize
+404,Baringo,2014,,,1.0,maize
+405,Bomet,2014,,,1.72,maize
+406,Bungoma,2014,,,2.73,maize
+407,Busia,2014,,,1.44,maize
+408,Elgeyo/Marakwet,2014,,,3.75,maize
+409,Embu,2014,,,1.0,maize
+410,Garissa,2014,245.0,199.0,0.81,maize
+411,Homabay,2014,,,1.56,maize
+412,Isiolo,2014,,657.0,0.47,maize
+413,Kajiado,2014,,,2.37,maize
+414,Kakamega,2014,,,2.57,maize
+415,Kericho,2014,,,1.68,maize
+416,Kiambu,2014,,,0.3,maize
+417,Kilifi,2014,653.0,300.0,0.46,maize
+418,Kirinyaga,2014,,,1.13,maize
+419,Kisii,2014,,,1.92,maize
+420,Kisumu,2014,,,2.01,maize
+421,Kitui,2014,,,0.36,maize
+422,Kwale,2014,,,0.91,maize
+423,Laikipia,2014,,,1.05,maize
+424,Lamu,2014,,,1.01,maize
+425,Machakos,2014,,,0.45,maize
+426,Makueni,2014,,,0.43,maize
+427,Mandera,2014,,,0.6,maize
+428,Marsabit,2014,,,1.01,maize
+429,Meru,2014,,,1.01,maize
+430,Migori,2014,,,1.24,maize
+431,Mombasa,2014,653.0,338.0,0.52,maize
+432,Murang'a,2014,,,0.85,maize
+433,Nairobi ,2014,913.0,740.0,0.81,maize
+434,Nakuru,2014,,,1.84,maize
+435,Nandi,2014,,,2.26,maize
+436,Narok,2014,,,2.39,maize
+437,Nyamira,2014,,,1.16,maize
+438,Nyandarua,2014,,,1.26,maize
+439,Nyeri,2014,,,0.72,maize
+440,Samburu,2014,,,1.05,maize
+441,Siaya,2014,,,1.58,maize
+442,Taita/Taveta,2014,653.0,823.0,1.26,maize
+443,Tana River,2014,,,1.19,maize
+444,Tharaka-Nthi,2014,,,0.85,maize
+445,Trans Nzoia,2014,,,4.23,maize
+446,Turkana,2014,,,1.64,maize
+447,Uasin Gishu,2014,,,3.93,maize
+448,Vihiga,2014,,,1.54,maize
+449,Wajir,2014,660.0,112.0,0.17,maize
+450,West Pokot,2014,,,2.35,maize
+451,Baringo,2015,,,1.89,maize
+452,Bomet,2015,,,1.08,maize
+453,Bungoma,2015,,,2.67,maize
+454,Busia,2015,,,1.7,maize
+455,Elgeyo/Marakwet,2015,,,2.32,maize
+456,Embu,2015,,,1.27,maize
+457,Garissa,2015,248.0,216.0,0.87,maize
+458,Homabay,2015,,,1.64,maize
+459,Isiolo,2015,,,1.21,maize
+460,Kajiado,2015,,,0.53,maize
+461,Kakamega,2015,,,2.86,maize
+462,Kericho,2015,,,2.16,maize
+463,Kiambu,2015,,,1.75,maize
+464,Kilifi,2015,,,1.17,maize
+465,Kirinyaga,2015,,,1.54,maize
+466,Kisii,2015,,,1.32,maize
+467,Kisumu,2015,,,1.21,maize
+468,Kitui,2015,,,0.55,maize
+469,Kwale,2015,,,1.24,maize
+470,Laikipia,2015,,,1.39,maize
+471,Lamu,2015,,,2.14,maize
+472,Machakos,2015,,,0.97,maize
+473,Makueni,2015,,,1.02,maize
+474,Mandera,2015,788.0,278.0,0.35,maize
+475,Marsabit,2015,631.0,646.0,1.02,maize
+476,Meru,2015,,,1.16,maize
+477,Migori,2015,,,2.28,maize
+478,Mombasa,2015,672.0,522.0,0.78,maize
+479,Murang'a,2015,,,1.1,maize
+480,Nairobi ,2015,919.0,,1.26,maize
+481,Nakuru,2015,,,1.57,maize
+482,Nandi,2015,,,2.8,maize
+483,Narok,2015,,,1.61,maize
+484,Nyamira,2015,,,1.5,maize
+485,Nyandarua,2015,,,1.48,maize
+486,Nyeri,2015,,,1.32,maize
+487,Samburu,2015,,724.0,0.19,maize
+488,Siaya,2015,,,1.63,maize
+489,Taita/Taveta,2015,,,0.74,maize
+490,Tana River,2015,,,1.18,maize
+491,Tharaka-Nthi,2015,,,1.39,maize
+492,Trans Nzoia,2015,,,3.87,maize
+493,Turkana,2015,,,0.63,maize
+494,Uasin Gishu,2015,,,3.89,maize
+495,Vihiga,2015,,,1.25,maize
+496,Wajir,2015,84.0,38.0,0.45,maize
+497,West Pokot,2015,,,1.82,maize
+498,Baringo,2016,,,2.19,maize
+499,Bomet,2016,,,1.41,maize
+500,Bungoma,2016,,,2.99,maize
+501,Busia,2016,,,0.95,maize
+502,Elgeyo/Marakwet,2016,,,2.25,maize
+503,Embu,2016,,,0.65,maize
+504,Garissa,2016,167.0,152.0,0.91,maize
+505,Homabay,2016,,,1.15,maize
+506,Isiolo,2016,708.0,475.0,0.67,maize
+507,Kajiado,2016,,,0.34,maize
+508,Kakamega,2016,,,2.2,maize
+509,Kericho,2016,,,2.41,maize
+510,Kiambu,2016,,,1.41,maize
+511,Kilifi,2016,,,0.42,maize
+512,Kirinyaga,2016,,,0.87,maize
+513,Kisii,2016,,,1.31,maize
+514,Kisumu,2016,,,0.4,maize
+515,Kitui,2016,,,0.08,maize
+516,Kwale,2016,,,0.34,maize
+517,Laikipia,2016,,,0.17,maize
+518,Lamu,2016,,,1.06,maize
+519,Machakos,2016,,,0.88,maize
+520,Makueni,2016,,,0.55,maize
+521,Mandera,2016,780.0,380.0,0.49,maize
+522,Marsabit,2016,537.0,282.0,0.53,maize
+523,Meru,2016,,,1.12,maize
+524,Migori,2016,,,0.93,maize
+525,Mombasa,2016,860.0,86.0,0.1,maize
+526,Murang'a,2016,,,0.74,maize
+527,Nairobi ,2016,954.0,,1.1,maize
+528,Nakuru,2016,,,2.36,maize
+529,Nandi,2016,,,2.92,maize
+530,Narok,2016,,,2.35,maize
+531,Nyamira,2016,,,1.33,maize
+532,Nyandarua,2016,,,1.26,maize
+533,Nyeri,2016,,,0.54,maize
+534,Samburu,2016,,,2.13,maize
+535,Siaya,2016,,,0.85,maize
+536,Taita/Taveta,2016,,,0.58,maize
+537,Tana River,2016,,,1.43,maize
+538,Tharaka-Nthi,2016,,,0.71,maize
+539,Trans Nzoia,2016,,,3.82,maize
+540,Turkana,2016,,,1.19,maize
+541,Uasin Gishu,2016,,,3.95,maize
+542,Vihiga,2016,,,1.41,maize
+543,West Pokot,2016,,,2.37,maize
+544,Baringo,2012,,,0.4,dry beans
+545,Bomet,2012,,,0.6,dry beans
+546,Bungoma,2012,,,0.6,dry beans
+547,Busia,2012,,,0.5,dry beans
+548,Elgeyo Marakwet,2012,,,0.9,dry beans
+549,Embu,2012,,,0.6,dry beans
+550,Garissa,2012,,,0.0,dry beans
+551,Homa Bay,2012,,,0.7,dry beans
+552,Isiolo,2012,193.0,74.0,0.4,dry beans
+553,Kajiado,2012,,,0.1,dry beans
+554,Kakamega,2012,,,0.6,dry beans
+555,Kericho,2012,,,0.6,dry beans
+556,Kiambu,2012,,,0.8,dry beans
+557,Kilifi,2012,170.0,28.0,0.2,dry beans
+558,Kirinyaga,2012,,,0.9,dry beans
+559,Kisii,2012,,,0.8,dry beans
+560,Kisumu,2012,,,0.7,dry beans
+561,Kitui,2012,,,0.5,dry beans
+562,Kwale,2012,628.0,368.0,0.6,dry beans
+563,Laikipia,2012,,,0.7,dry beans
+564,Lamu,2012,,347.0,0.3,dry beans
+565,Machakos,2012,,,0.5,dry beans
+566,Makueni,2012,,,0.5,dry beans
+567,Mandera,2012,,,0.0,dry beans
+568,Marsabit,2012,50.0,17.0,0.3,dry beans
+569,Meru,2012,,,0.7,dry beans
+570,Migori,2012,,,0.7,dry beans
+571,Mombasa,2012,2.0,1.0,0.3,dry beans
+572,Murang'a,2012,,,0.8,dry beans
+573,Nairobi,2012,750.0,535.0,0.7,dry beans
+574,Nakuru,2012,,,0.6,dry beans
+575,Nandi,2012,,,0.6,dry beans
+576,Narok,2012,,,0.1,dry beans
+577,Nyamira,2012,,,0.8,dry beans
+578,Nyandarua,2012,,,0.6,dry beans
+579,Nyeri,2012,,,0.7,dry beans
+580,Samburu,2012,618.0,323.0,0.5,dry beans
+581,Siaya,2012,,,0.6,dry beans
+582,Taita Taveta,2012,,,0.9,dry beans
+583,Tana River,2012,11.0,4.0,0.4,dry beans
+584,Tharaka Nithi,2012,,,0.6,dry beans
+585,Trans Nzoia,2012,,,0.4,dry beans
+586,Turkana,2012,,,0.0,dry beans
+587,Uasin Gishu,2012,,,0.2,dry beans
+588,Vihiga,2012,,,0.5,dry beans
+589,Wajir,2012,,,0.0,dry beans
+590,West Pokot,2012,,,0.3,dry beans
+591,Baringo,2013,,,0.9,dry beans
+592,Bomet,2013,,,0.5,dry beans
+593,Bungoma,2013,,,1.0,dry beans
+594,Busia,2013,,,1.6,dry beans
+595,Elgeyo Marakwet,2013,,,0.9,dry beans
+596,Embu,2013,,,1.1,dry beans
+597,Garissa,2013,,,0.0,dry beans
+598,Homa Bay,2013,,,0.8,dry beans
+599,Isiolo,2013,263.0,363.0,1.4,dry beans
+600,Kajiado,2013,,,0.5,dry beans
+601,Kakamega,2013,,,0.6,dry beans
+602,Kericho,2013,,,0.3,dry beans
+603,Kiambu,2013,,,0.4,dry beans
+604,Kilifi,2013,133.0,30.0,0.2,dry beans
+605,Kirinyaga,2013,,,0.5,dry beans
+606,Kisii,2013,,,0.8,dry beans
+607,Kisumu,2013,,,0.9,dry beans
+608,Kitui,2013,,,0.4,dry beans
+609,Kwale,2013,682.0,368.0,0.5,dry beans
+610,Laikipia,2013,,,9.7,dry beans
+611,Lamu,2013,825.0,299.0,0.4,dry beans
+612,Machakos,2013,,,0.8,dry beans
+613,Makueni,2013,,,0.1,dry beans
+614,Mandera,2013,,,0.0,dry beans
+615,Marsabit,2013,550.0,323.0,0.6,dry beans
+616,Meru,2013,,,0.7,dry beans
+617,Migori,2013,,,0.4,dry beans
+618,Mombasa,2013,22.0,12.0,0.5,dry beans
+619,Murang'a,2013,,,0.7,dry beans
+620,Nairobi,2013,700.0,,1.9,dry beans
+621,Nakuru,2013,,,0.6,dry beans
+622,Nandi,2013,,,0.8,dry beans
+623,Narok,2013,,,0.2,dry beans
+624,Nyamira,2013,,,0.8,dry beans
+625,Nyandarua,2013,,,1.1,dry beans
+626,Nyeri,2013,,,0.7,dry beans
+627,Samburu,2013,546.0,373.0,0.7,dry beans
+628,Siaya,2013,,,0.7,dry beans
+629,Taita Taveta,2013,,485.0,0.2,dry beans
+630,Tana River,2013,25.0,9.0,0.4,dry beans
+631,Tharaka Nithi,2013,,,1.0,dry beans
+632,Trans Nzoia,2013,,,0.4,dry beans
+633,Turkana,2013,,,0.0,dry beans
+634,Uasin Gishu,2013,,,0.2,dry beans
+635,Vihiga,2013,,,1.0,dry beans
+636,Wajir,2013,,,0.0,dry beans
+637,West Pokot,2013,,,0.4,dry beans
+638,Baringo,2014,,,0.9,dry beans
+639,Bomet,2014,,,0.7,dry beans
+640,Bungoma,2014,,,1.2,dry beans
+641,Busia,2014,,,1.0,dry beans
+642,Elgeyo Marakwet,2014,,,0.9,dry beans
+643,Embu,2014,,,0.8,dry beans
+644,Garissa,2014,,,0.0,dry beans
+645,Homa Bay,2014,,,0.7,dry beans
+646,Isiolo,2014,,39.0,0.0,dry beans
+647,Kajiado,2014,,,0.4,dry beans
+648,Kakamega,2014,,,0.9,dry beans
+649,Kericho,2014,,,0.8,dry beans
+650,Kiambu,2014,,,0.5,dry beans
+651,Kilifi,2014,34.0,5.0,0.1,dry beans
+652,Kirinyaga,2014,,,0.4,dry beans
+653,Kisii,2014,,,0.8,dry beans
+654,Kisumu,2014,,,0.8,dry beans
+655,Kitui,2014,,,0.6,dry beans
+656,Kwale,2014,284.0,291.0,1.0,dry beans
+657,Laikipia,2014,,,0.9,dry beans
+658,Lamu,2014,,,0.0,dry beans
+659,Machakos,2014,,,0.3,dry beans
+660,Makueni,2014,,,0.2,dry beans
+661,Mandera,2014,,,0.0,dry beans
+662,Marsabit,2014,627.0,821.0,1.3,dry beans
+663,Meru,2014,,,0.3,dry beans
+664,Migori,2014,,,0.5,dry beans
+665,Mombasa,2014,,,0.0,dry beans
+666,Murang'a,2014,,,0.7,dry beans
+667,Nairobi,2014,676.0,,1.8,dry beans
+668,Nakuru,2014,,,0.5,dry beans
+669,Nandi,2014,,,0.8,dry beans
+670,Narok,2014,,,0.1,dry beans
+671,Nyamira,2014,,,0.7,dry beans
+672,Nyandarua,2014,,,0.5,dry beans
+673,Nyeri,2014,,,0.7,dry beans
+674,Samburu,2014,840.0,564.0,0.7,dry beans
+675,Siaya,2014,,,0.7,dry beans
+676,Taita Taveta,2014,,546.0,0.2,dry beans
+677,Tana River,2014,,,0.0,dry beans
+678,Tharaka Nithi,2014,,,0.9,dry beans
+679,Trans Nzoia,2014,,,0.4,dry beans
+680,Turkana,2014,,,0.0,dry beans
+681,Uasin Gishu,2014,,,0.3,dry beans
+682,Vihiga,2014,,,0.3,dry beans
+683,Wajir,2014,,,0.0,dry beans
+684,West Pokot,2014,,,0.5,dry beans
+685,Baringo,2015,,,0.7,dry beans
+686,Bomet,2015,,,1.3,dry beans
+687,Bungoma,2015,,,0.8,dry beans
+688,Busia,2015,,,1.3,dry beans
+689,Elgeyo Marakwet,2015,,,1.1,dry beans
+690,Embu,2015,,,1.2,dry beans
+691,Garissa,2015,78.0,40.0,0.5,dry beans
+692,Homa Bay,2015,,,0.5,dry beans
+693,Isiolo,2015,250.0,165.0,0.7,dry beans
+694,Kajiado,2015,,,0.6,dry beans
+695,Kakamega,2015,,,0.8,dry beans
+696,Kericho,2015,,,1.0,dry beans
+697,Kiambu,2015,,,0.9,dry beans
+698,Kilifi,2015,,75.0,0.0,dry beans
+699,Kirinyaga,2015,,,0.7,dry beans
+700,Kisii,2015,,,0.9,dry beans
+701,Kisumu,2015,,,0.6,dry beans
+702,Kitui,2015,,,0.6,dry beans
+703,Kwale,2015,363.0,267.0,0.7,dry beans
+704,Laikipia,2015,,,0.9,dry beans
+705,Lamu,2015,,,0.4,dry beans
+706,Machakos,2015,,,0.7,dry beans
+707,Makueni,2015,,,0.5,dry beans
+708,Mandera,2015,29.0,14.0,0.5,dry beans
+709,Marsabit,2015,402.0,159.0,0.4,dry beans
+710,Meru,2015,,,0.9,dry beans
+711,Migori,2015,,,0.6,dry beans
+712,Mombasa,2015,8.0,3.0,0.4,dry beans
+713,Murang'a,2015,,,0.6,dry beans
+714,Nairobi,2015,673.0,484.0,0.7,dry beans
+715,Nakuru,2015,,,0.8,dry beans
+716,Nandi,2015,,,0.9,dry beans
+717,Narok,2015,,,1.1,dry beans
+718,Nyamira,2015,,,0.7,dry beans
+719,Nyandarua,2015,,,0.4,dry beans
+720,Nyeri,2015,,,0.7,dry beans
+721,Samburu,2015,,,0.9,dry beans
+722,Siaya,2015,,,0.6,dry beans
+723,Taita Taveta,2015,,966.0,0.7,dry beans
+724,Tana River,2015,40.0,21.0,0.5,dry beans
+725,Tharaka Nithi,2015,,,0.9,dry beans
+726,Trans Nzoia,2015,,,0.7,dry beans
+727,Turkana,2015,40.0,12.0,0.3,dry beans
+728,Uasin Gishu,2015,,,0.6,dry beans
+729,Vihiga,2015,,,0.4,dry beans
+730,Wajir,2015,,,0.3,dry beans
+731,West Pokot,2015,,,0.7,dry beans
+732,Baringo,2016,,,0.4,dry beans
+733,Bomet,2016,,,1.6,dry beans
+734,Bungoma,2016,,,0.7,dry beans
+735,Busia,2016,,,0.7,dry beans
+736,Elgeyo Marakwet,2016,,,0.8,dry beans
+737,Embu,2016,,,0.7,dry beans
+738,Garissa,2016,40.0,13.0,0.3,dry beans
+739,Homa Bay,2016,,,0.8,dry beans
+740,Isiolo,2016,203.0,112.0,0.6,dry beans
+741,Kajiado,2016,,,0.5,dry beans
+742,Kakamega,2016,,,0.9,dry beans
+743,Kericho,2016,,,0.4,dry beans
+744,Kiambu,2016,,,0.8,dry beans
+745,Kilifi,2016,82.0,20.0,0.2,dry beans
+746,Kirinyaga,2016,,,0.5,dry beans
+747,Kisii,2016,,,0.8,dry beans
+748,Kisumu,2016,,,0.8,dry beans
+749,Kitui,2016,,,0.1,dry beans
+750,Kwale,2016,542.0,116.0,0.2,dry beans
+751,Laikipia,2016,,,0.6,dry beans
+752,Lamu,2016,,810.0,0.3,dry beans
+753,Machakos,2016,,,0.3,dry beans
+754,Makueni,2016,,,0.4,dry beans
+755,Mandera,2016,21.0,6.0,0.3,dry beans
+756,Marsabit,2016,578.0,141.0,0.2,dry beans
+757,Meru,2016,,,0.6,dry beans
+758,Migori,2016,,,0.7,dry beans
+759,Mombasa,2016,9.0,4.0,0.4,dry beans
+760,Murang'a,2016,,,0.5,dry beans
+761,Nairobi,2016,694.0,402.0,0.6,dry beans
+762,Nakuru,2016,,,0.5,dry beans
+763,Nandi,2016,,,1.0,dry beans
+764,Narok,2016,,,0.9,dry beans
+765,Nyamira,2016,,,0.5,dry beans
+766,Nyandarua,2016,,,0.6,dry beans
+767,Nyeri,2016,,,0.3,dry beans
+768,Samburu,2016,,,1.3,dry beans
+769,Siaya,2016,,,0.5,dry beans
+770,Taita Taveta,2016,,,0.5,dry beans
+771,Tana River,2016,27.0,24.0,0.9,dry beans
+772,Tharaka Nithi,2016,,,0.7,dry beans
+773,Trans Nzoia,2016,,,0.5,dry beans
+774,Turkana,2016,36.0,9.0,0.3,dry beans
+775,Uasin Gishu,2016,,,0.6,dry beans
+776,Vihiga,2016,,,0.4,dry beans
+777,Wajir,2016,,756.0,0.1,dry beans
+778,West Pokot,2016,,,1.0,dry beans
+779,Baringo,2012,820.0,,3.6,rice
+780,Bungoma,2012,24.0,65.0,2.7,rice
+781,Busia,2012,,,2.3,rice
+782,Elgeyo/Marakwet,2012,14.0,29.0,2.1,rice
+783,Embu,2012,62.0,223.0,3.6,rice
+784,Garissa,2012,70.0,252.0,3.6,rice
+785,Homabay,2012,310.0,,4.2,rice
+786,Kakamega,2012,218.0,542.0,2.5,rice
+787,Kilifi,2012,494.0,967.0,2.0,rice
+788,Kirinyaga,2012,,,5.9,rice
+789,Kisumu,2012,,,4.3,rice
+790,Kwale,2012,,,3.6,rice
+791,Lamu,2012,653.0,,2.8,rice
+792,Meru,2012,5.0,25.0,5.0,rice
+793,Migori,2012,230.0,828.0,3.6,rice
+794,Murang'a,2012,296.0,874.0,3.0,rice
+795,Nyeri,2012,91.0,242.0,2.7,rice
+796,Siaya,2012,,,4.3,rice
+797,Taita/Taveta,2012,356.0,920.0,2.6,rice
+798,Tana River,2012,,,4.9,rice
+799,Tharaka-Nthi,2012,15.0,50.0,3.3,rice
+800,Vihiga,2012,162.0,319.0,2.0,rice
+801,Baringo,2013,900.0,,4.2,rice
+802,Bungoma,2013,135.0,446.0,3.3,rice
+803,Busia,2013,964.0,,2.0,rice
+804,Elgeyo/Marakwet,2013,12.0,16.0,1.3,rice
+805,Embu,2013,13.0,30.0,2.3,rice
+806,Garissa,2013,25.0,34.0,1.4,rice
+807,Homabay,2013,478.0,,3.7,rice
+808,Kakamega,2013,48.0,182.0,3.8,rice
+809,Kilifi,2013,,,0.5,rice
+810,Kirinyaga,2013,,,6.4,rice
+811,Kisumu,2013,,,3.8,rice
+812,Kwale,2013,,,4.3,rice
+813,Lamu,2013,68.0,175.0,2.6,rice
+814,Meru,2013,7.0,40.0,5.7,rice
+815,Migori,2013,562.0,170.0,0.3,rice
+816,Murang'a,2013,120.0,95.0,0.8,rice
+817,Nyeri,2013,120.0,395.0,3.3,rice
+818,Siaya,2013,,,2.7,rice
+819,Taita/Taveta,2013,248.0,,5.3,rice
+820,Tana River,2013,,,6.1,rice
+821,Tharaka-Nthi,2013,28.0,64.0,2.3,rice
+822,Vihiga,2013,46.0,94.0,2.0,rice
+823,Baringo,2014,740.0,,3.0,rice
+824,Bungoma,2014,115.0,293.0,2.5,rice
+825,Busia,2014,964.0,,2.0,rice
+826,Elgeyo/Marakwet,2014,14.0,20.0,1.4,rice
+827,Embu,2014,5.0,15.0,3.0,rice
+828,Garissa,2014,30.0,64.0,2.1,rice
+829,Homabay,2014,523.0,,3.4,rice
+830,Kakamega,2014,104.0,396.0,3.8,rice
+831,Kilifi,2014,119.0,283.0,2.4,rice
+832,Kirinyaga,2014,,,4.0,rice
+833,Kisumu,2014,,,4.1,rice
+834,Kwale,2014,,,3.4,rice
+835,Lamu,2014,491.0,,2.8,rice
+836,Meru,2014,17.0,45.0,2.6,rice
+837,Migori,2014,681.0,,2.1,rice
+838,Murang'a,2014,103.0,261.0,2.5,rice
+839,Nyeri,2014,103.0,261.0,2.5,rice
+840,Siaya,2014,,,3.1,rice
+841,Taita/Taveta,2014,265.0,,5.3,rice
+842,Tana River,2014,,,3.1,rice
+843,Tharaka-Nthi,2014,28.0,74.0,2.7,rice
+844,Vihiga,2014,54.0,116.0,2.1,rice
+845,Baringo,2015,301.0,843.0,2.8,rice
+846,Bungoma,2015,135.0,411.0,3.0,rice
+847,Busia,2015,,,4.0,rice
+848,Elgeyo/Marakwet,2015,33.0,96.0,2.9,rice
+849,Embu,2015,8.0,24.0,3.0,rice
+850,Garissa,2015,66.0,161.0,2.4,rice
+851,Homabay,2015,162.0,410.0,2.5,rice
+852,Kakamega,2015,166.0,362.0,2.2,rice
+853,Kilifi,2015,228.0,698.0,3.1,rice
+854,Kirinyaga,2015,,,4.2,rice
+855,Kisumu,2015,,,3.8,rice
+856,Kwale,2015,279.0,980.0,3.5,rice
+857,Lamu,2015,376.0,840.0,2.2,rice
+858,Meru,2015,11.0,32.0,2.9,rice
+859,Migori,2015,189.0,486.0,2.6,rice
+860,Murang'a,2015,294.0,739.0,2.5,rice
+861,Nyeri,2015,82.0,250.0,3.0,rice
+862,Siaya,2015,209.0,451.0,2.2,rice
+863,Taita/Taveta,2015,270.0,,4.2,rice
+864,Tana River,2015,,,3.5,rice
+865,Tharaka-Nthi,2015,380.0,,3.5,rice
+866,Vihiga,2015,,,3.2,rice
+867,Baringo,2016,300.0,563.0,1.9,rice
+868,Bungoma,2016,195.0,465.0,2.4,rice
+869,Busia,2016,,,4.0,rice
+870,Elgeyo/Marakwet,2016,23.0,63.0,2.7,rice
+871,Embu,2016,6.0,20.0,3.3,rice
+872,Garissa,2016,65.0,175.0,2.7,rice
+873,Homabay,2016,164.0,321.0,2.0,rice
+874,Kakamega,2016,171.0,573.0,3.4,rice
+875,Kilifi,2016,216.0,550.0,2.5,rice
+876,Kirinyaga,2016,,,3.5,rice
+877,Kisumu,2016,,,3.4,rice
+878,Kwale,2016,311.0,666.0,2.1,rice
+879,Lamu,2016,440.0,800.0,1.8,rice
+880,Meru,2016,10.0,38.0,3.8,rice
+881,Migori,2016,216.0,583.0,2.7,rice
+882,Murang'a,2016,230.0,593.0,2.6,rice
+883,Nyeri,2016,60.0,190.0,3.2,rice
+884,Siaya,2016,111.0,272.0,2.5,rice
+885,Taita/Taveta,2016,286.0,720.0,2.5,rice
+886,Tana River,2016,,,3.8,rice
+887,Tharaka-Nthi,2016,310.0,,3.4,rice
+888,Vihiga,2016,,,2.0,rice

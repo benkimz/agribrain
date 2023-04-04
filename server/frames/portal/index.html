@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+    <base href="../../../">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/solid.min.css">
+
+<style>
+*{
+    position: relative; padding: 0px; margin: 0px; /*border: 1px solid blue;*/
+}
+html, body, main{
+    width: 100%; height: 100%; overflow: hidden; border: none;
+}
+main{
+    overflow-y: auto; display: flex; display: -webkit-flex; flex-direction: column;
+    -webkit-flex-direction: column; align-items: center; -webkit-align-items: center;
+}
+main::-webkit-scrollbar{ width: 10px!important; }
+main::-webkit-scrollbar-track{ background: #ffffff!important; }
+main::-webkit-scrollbar-thumb{ background: #030353!important; }
+main::-webkit-scrollbar-thumb:hover{ background: #030353!important; }
+
+#topbar{ width: 100%; max-width: 600px; height: auto; padding: 0px; border-width: 0px 1px 1px 1px;
+    border-style:  solid; border-color:  #dbdbdb; }
+#topbar > ul{
+    margin: 0px; list-style-type: none; width: 100%; display: flex; display: -webkit-flex;
+    align-items: center; -webkit-align-items: center; justify-content: space-around; flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap; border: none;
+}
+#topbar > ul > li{
+    display: flex; display: -webkit-flex; align-items: center; -webkit-align-items: center; 
+    justify-content: center; -webkit-justify-content: center; flex-direction: column;
+    -webkit-flex-direction: column; padding: 8px 8px 0px 8px; background: #f3f3f3;
+    border: none;
+}
+#topbar > ul > li > i, #topbar > ul > li > p{
+    border: none; text-transform: capitalize; color: #006a08; font-weight: 600;
+}
+#ag-conversations{
+    width: 100%; display: flex; display: -webkit-flex; flex-direction: column; -webkit-flex-direction: column;
+    align-items: center; -webkit-align-items: center; border: none; padding: 10px;
+}
+#ag-conversations > .ag-msgs{
+    width: 100%; max-width: 800px; padding: 20px; 
+    margin-top: 15px; border: 1px solid #e7e5e5; 
+}
+#ag-conversations > .ag-outgoing{
+    background: #f7f6f6;
+}
+</style>
+
+<script>
+    const scrollToBottom = ((element_id) => {
+        const element = document.getElementById(element_id);
+        try{
+            element.scrollTop = element.scrollHeight - element.clientHeight;
+        }catch(error){
+            console.log(`--error: ${error}`);
+        }
+    });
+    const selfScrollToBottom = ((element) => {
+        try{
+            element.scrollTop = element.scrollHeight - element.clientHeight;
+        }catch(error){
+            console.log(`--error: ${error}`);
+        }
+    });    
+</script>
+</head>
+<body>
+    <main id="ag-root">
+        <div id="topbar">
+            <ul>
+                <li>
+                    <i class="fa fa-location-pin solid"></i>
+                    <p id="location">nyeri</p>
+                </li>
+                <li>
+                    <i class="fa fa-thermometer solid"></i>
+                    <p id="temp">24 C</p>
+                </li>
+                <li>
+                    <i class="fa fa-cloud-rain solid"></i>
+                    <p id="precip">15 mm</p>
+                </li>
+                <li>
+                    <i class="fa fa-wind solid"></i>
+                    <p id="wind">1.8 m/s</p>
+                </li>
+                <li>
+                    <i class="fa fa-compress solid"></i>
+                    <p id="pressure">0.005 hPa</p>
+                </li>
+            </ul>
+        </div>
+
+        <div id="ag-conversations">
+            <!-- <div class="ag-msgs ag-incoming">
+                Hi, how may I help you?
+            </div>
+            <div class="ag-msgs ag-outgoing">
+                How can I plant/ cultivate tea?
+            </div>
+            <div class="ag-msgs ag-incoming">
+                <h5>Planting Tomatoes</h5>
+                <p>
+                    Tomato (Lycopersicon esculentum) can be grown throughout the year. 
+                    You can start harvesting tomato fruits 8 - 9 weeks after transplanting. 
+                    One tomato plant can yield 4 - 6 kg (10 - 15 lbs.) of fruits. 
+                </p>
+                <table class="demo table table-hover table-striped table-condensed">
+                    <caption style="text-align: center;">weather forecast: temperature</caption>
+                    <tr><td>daily mean temp</td><td>change in 8 weeks</td></tr>
+                    <tr><td style="color: #006a08;"><b>21 C</b></td>
+                        <td style="color: red;"><b>-3 C</b></td></tr>
+                </table>
+                <table class="demo table table-hover table-striped table-condensed">
+                    <caption style="text-align: center;">weather forecast: precipitation</caption>
+                    <tr><td>daily mean rainfall</td><td>change in 8 weeks</td></tr>
+                    <tr><td style="color: #006a08;"><b>18 mm</b></td>
+                        <td style="color: #006a08;"><b>+5 mm</b></td></tr>
+                </table>
+                <p>
+                    Tomatoes can perform well in temperatures between 20 - 25 C, and medium daily 
+                    rainfall of between 18 - 24 mm. It is possible for you to plant at this time.
+                </p>
+                <ul>
+                    <li>
+                        Land  preparation: 
+                        If planting in the ground, loosen the soil using a 
+                        garden fork to encourage drainage and aeration.                  
+                        Remove all stumps and large stones. Make drains  
+                        to remove excess water from the garden if   
+                        needed. 
+                    </li> 
+                    <li>
+                        Mixed cropping: 
+                        Tomato can be interplanted  with other crops 
+                        in the home garden. Allow 0.5 m2 (5 feet2) per 
+                        tomato plant. 
+                    </li>
+                    
+                    <p class="text-warning">
+                        Warning: 
+                        Too  much  water  in  the  soil  will  kill  the  plants 
+                        and encourages disease.  
+                    </p>
+                    <li>
+                        Container preparation: 
+                        If planting in containers, use a container at least 
+                        45 cm  (18 inches) by 40 cm (16 inches) and 30 
+                        cm (12 inches) deep.
+                    </li> 
+                    <li>
+                        Transplanting: Transplant  healthy  seedlings 
+                        afternoon (3:30 –  4:30 p.m.) when they are  
+                        3 - 4 weeks old.
+                    </li>
+                </ul>
+                <div style="text-align: center;">
+                    Price variation:
+                    <img src="./images/price-grp-02.png" alt="phrice grap" height="200">
+                </div>
+                <div class="container bg-light" style="text-align: center;">
+                    <div><b>Production forecast: </b> <b style="color: #006a08;">2kg/ piece</b></div>
+                    <div><b>Production forecast: </b><b style="color: #006a08;">25,000kg/ acre</b></div>                    
+                </div>
+            </div>  -->
+
+
+        </div>
+
+<script>
+window.onload = (function (e){ 
+    const scrollIntoView = (() => {scrollToBottom("ag-root");}); scrollIntoView();
+    const anchor = this.document.getElementById("ag-conversations");
+    const textBox = window.parent.document.getElementById("ag-query"), 
+    qSubBtn = window.parent.document.getElementById("ag-qsub-btn");
+    textBox.oninput = (function (event){
+        if(event.inputType === "insertText" && event.data === null){
+            const prompt = String(textBox.value);
+            if(prompt.replace(/^(\s|\u00A0)+|(\s|\u00A0)+$/g, '').length > 0){
+                event.preventDefault(); qSubBtn.click(true);
+            }
+       }
+    });
+    qSubBtn.onclick = (function (ev){
+        const sock = new WebSocket("ws://localhost:8765/");
+
+        sock.onopen = (function (){
+            sock.send(JSON.stringify({
+                "query_id": `out_${parseInt(new Date().getTime())}`, 
+                "message": textBox.value
+            })); 
+            const msgAnchor = document.createElement("div");
+            msgAnchor.className = "ag-msgs ag-outgoing";
+            anchor.appendChild(msgAnchor);
+            msgAnchor.innerHTML = textBox.value;
+            scrollIntoView();
+        });
+
+        sock.onmessage = (function ({ data }){ textBox.value = '';
+            const response = JSON.parse(data);
+            const reply = String(response["reply"]), 
+            queryId = String(response["query_id"]);
+            let repAnchor = document.querySelector(`#${queryId}`);
+            if(!repAnchor){
+                repAnchor = document.createElement("div");
+                repAnchor.className = "ag-msgs ag-incoming";
+                repAnchor.id = queryId;
+                anchor.appendChild(repAnchor); scrollIntoView();
+            }
+            progressingPrint(reply.split("[SEP]"), repAnchor);
+            scrollIntoView();
+        });
+    });
+
+    const progressingPrint = ((message, target) => {
+        let pointer = 0;
+        const printInterval = setInterval((() => {
+            target.innerHTML += message[pointer];
+            pointer++; scrollIntoView();
+            if(pointer >= message.length) clearInterval(printInterval);
+        }), 200);
+    });
+});
+</script>        
+    </main>    
+</body>
+</html>
+

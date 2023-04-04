@@ -1,0 +1,22 @@
+{
+    "members": [
+        {
+            "name": "Wachira Benard Kimani", 
+            "username": "benkimz", 
+            "icon": "./assets/team/benkimz.jpg", 
+            "twitter": "https://www.twitter.com/benkimz_01", 
+            "linkedin": "https://www.linkedin.com/in/benkimz", 
+            "github": "https://github.com/benkimz", 
+            "description": "Currently pursuing an undergraduate degree in Electrical and Electronics Engineering at Moi University. Keen interest in developing cutting-edge technology and eager to learn new skills and technologies"
+        }, 
+        {
+            "name": "David Macharia", 
+            "username": "daviesmaish", 
+            "icon": "./assets/team/daviesmaish.jpg", 
+            "twitter": "https://www.twitter.com/davies_maish", 
+            "linkedin": "https://www.linkedin.com/in/daviesmaish", 
+            "github": "https://github.com/daviesmaish", 
+            "description": "An Electrical and Electronics Engineering student at Moi University, passionate in software development. I am excited to explore an intersection of engineering and agriculture."
+        }
+    ]
+}

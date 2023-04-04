@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriBrain Portal</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/solid.min.css">
+<style>
+*{
+    position: relative; padding: 0px; margin: 0px; background: none;
+    border: 1px solid blue;
+}
+html, body, main{
+    width: 100%!important; height: 100%!important; overflow: hidden!important; 
+    border: none!important; background: #ffffff!important;
+}
+main{
+    display: flex; display: -webkit-flex; flex-direction: column!important; -webkit-flex-direction: column;
+    justify-content: center!important; -webkit-justify-content: center!important;
+}
+
+.navbar[aria-label="top navigation bar"]{
+    margin-bottom: 5px; padding: 0px!important; border: none!important;
+    background: #006a08!important;
+}
+.navbar[aria-label="top navigation bar"] > .container-fluid{
+    border: none!important;
+}
+.navbar[aria-label="top navigation bar"] > .container-fluid .navbar-brand{
+    color: #2fff5c!important; font-weight: 700!important; padding: 4px!important;
+    border: none!important; border-right: 2px solid #000000!important;   
+}
+.navbar-toggler[data-bs-target="#topnavbar"]{
+    padding: 4px!important; box-shadow: none!important; 
+    outline: none!important; background: #ffffff!important;
+}
+.navbar-toggler[data-bs-target="#topnavbar"] > span{ border: none!important; }
+#topnavbar, #topnavbar > .navbar-nav{ width: 100%!important; border: none!important; }
+#topnavbar > .navbar-nav > .nav-item{
+    border: none!important; border-right: 1px solid #837979!important;
+}
+#topnavbar > .navbar-nav > .nav-item > .nav-link{
+    text-transform: capitalize!important; color: #ffffff!important;
+    border: none!important; font-weight: 600!important;
+}
+#topnavbar > .navbar-nav > .nav-item > .nav-link > .fa{ border: none!important; }
+#topnavbar > .navbar-nav > .nav-item > .dropdown-menu > li, 
+#topnavbar > .navbar-nav > .nav-item > .dropdown-menu > li > a{ border: none!important; }
+</style>    
+</head>
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="top navigation bar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">AgriBrain</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topnavbar" aria-controls="topnavbar" aria-expanded="false" aria-label="more options">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse justify-content-md-center" id="topnavbar">
+                <ul class="navbar-nav flex-md-row justify-content-md-around">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <i class="fa fa-home solid"></i>
+                        home
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about/">
+                        about us                       
+                    </a>
+                  </li>                   
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:8501/weather/">
+                        <i class="fa fa-cloud-moon"></i>
+                        weather                        
+                    </a>
+                  </li>                    
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:8501/markets/">
+                        <i class="fa fa-briefcase solid"></i>
+                        market                        
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./foodbanks/">
+                        <i class="fa fa-bowl-food solid"></i>
+                        foodbanks                        
+                    </a>
+                  </li>                    
+                  <li class="nav-item">
+                    <a class="nav-link" href="./statistics/">
+                        <i class="fa fa-line-chart solid"></i>
+                        statistics                        
+                    </a>
+                  </li>                
+                  <li class="nav-item">
+                    <a class="nav-link" href="./settings/">
+                        <i class="fa fa-gear solid"></i>
+                        settings                      
+                    </a>
+                  </li>                                               
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="datatgg" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-database solid"></i>
+                        Data
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="datatgg">
+                        <li><a class="dropdown-item" href="#">foodbanks</a></li>
+                        <li><a class="dropdown-item" href="#">farmers</a></li>
+                        <li><a class="dropdown-item" href="#">remote collections</a></li>
+                        <li><a class="dropdown-item" href="#">weather</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="explore" data-bs-toggle="dropdown" aria-expanded="false">
+                        Explore
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="explore">
+                        <li><a class="dropdown-item" href="#">Mission</a></li>
+                        <li><a class="dropdown-item" href="#">ACP program</a></li>
+                        <li><a class="dropdown-item" href="#">ARCs</a></li>
+                        <li><a class="dropdown-item" href="#">team</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>  
+
+<style>
+#ag-content-root{
+    width: 100%!important; height: 100%!important; border: none!important; border-top: 1px solid grey!important;
+    display: flex; display: -webkit-flex; flex-wrap: nowrap!important;
+}
+#ag-side-bar{
+    height: inherit!important; width: 100%!important; max-width: 350px!important;
+    border: none!important; margin: 0px!important; padding: 0px!important;
+    display: flex; display: -webkit-flex; flex-direction: column!important;
+    -webkit-flex-direction: column!important; justify-content: center!important;
+    align-items: center!important; -webkit-align-items: center!important;
+    overflow: hidden!important; border-left: 1px solid #808080!important;
+}
+#ag-side-bar-tgg{
+    display: flex; display: -webkit-flex; justify-content: space-between!important;
+    flex-wrap: wrap!important; -webkit-flex-wrap: wrap!important; border: none!important;
+    align-items: center!important; -webkit-align-items: center!important;
+    width: inherit!important; height: auto!important; padding: 3px!important; font-weight: 600!important;
+    text-transform: capitalize!important; color: #4e4646!important;
+    border-bottom: 1px solid #c4c4d1!important;   
+}
+#ag-side-bar-tgg-btn{
+    padding: 4px!important; outline: none!important; box-shadow: none!important;
+    background: #e9e9e9!important; border: none!important; border-radius: 5px!important;
+}
+#ag-side-bar-tgg-btn > .fa{ border: none!important; }
+#ag-side-bar-tgg-btn[bar-status="on"] > .fa{
+    color: blue!important;
+}
+#ag-side-bar > .ag-wt-data{
+    height: 100%!important; overflow: hidden!important; width: 100%!important; display: flex; 
+    display: -webkit-flex; justify-content: center!important; flex-direction: column!important; 
+    align-items: center!important; overflow-y: auto!important; border: none!important;
+    background-position: top!important; background-size: 100%!important; background-repeat: no-repeat;
+    background-image: url(assets/images/solutionchallenge-2023-Website-EventBanners-@2x.png)!important;
+}
+
+#ag-main-area{
+    height: inherit!important; width: 100%!important; border: none!important; border-right: 1px #808080!important;
+    display: flex; display: -webkit-flex; justify-content: center; -webkit-justify-content: center;
+    flex-direction: column; -webkit-flex-direction: column;
+}
+#ag-portal-frame-wrp{
+    width: 100%!important; height: 100%!important; overflow: hidden!important;
+    border: none!important; border-bottom: 1px solid grey!important;
+}
+#ag-portal-frame{
+    width: 100%!important; height: 100%!important; border: none!important;
+    overflow: hidden!important; overflow-y: auto!important; 
+}
+#ag-query-feed{
+    width: 100%!important; height: 100%!important; max-height: 100px!important;
+    display: flex; display: -webkit-flex; justify-content: space-around; -webkit-justify-content: space-around;
+    align-items: center; -webkit-align-items: center; border: none!important;   
+}
+#ag-query{
+    margin: 5px!important; height: 80px!important; outline: none!important; box-shadow: none!important;
+    padding: 15px!important;
+}
+#ag-qsub-btn{
+    margin: 5px!important; width: 50px!important; height: 50px!important; 
+    background: #efefef!important; border: none!important;
+}
+#ag-qsub-btn > i{font-size: 28px!important; border: none!important; color: #006a08;}
+</style>          
+        <div id="ag-content-root">
+            <div id="ag-main-area">
+                <div id="ag-portal-frame-wrp">
+                    <iframe src="./server/frames/portal/?t=k56768793hkgjyuiuoiuoi4534467553462lkl6750909asjhdjSDK37264382" frameborder="0" id="ag-portal-frame"></iframe>
+                </div>
+                <div id="ag-query-feed">
+                    <textarea name="ag-query" id="ag-query" class="form-control" placeholder="Enter your query here..."></textarea>
+                    <button id="ag-qsub-btn">
+                        <i class="fa fa-paper-plane solid"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="ag-side-bar">
+                <div id="ag-side-bar-tgg">
+                    <button id="ag-side-bar-tgg-btn" bar-status="on">
+                        off <i class="fa fa-toggle-on solid" style="width: 40px;"></i> on
+                    </button>
+                    today's updates
+                </div>
+                <div class="ag-wt-data">
+                    <table class="table table-hover table-striped table-condensed">
+                        <thead>
+                            <tr>
+                                <th>element</th> <th>prediction</th> <th>units</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>minimum temp</td>
+                                <td>10</td>
+                                <td>C</td>
+                            </tr>
+                            <tr>
+                                <td>maximum temp</td>
+                                <td>35</td>
+                                <td>C</td>
+                            </tr>
+                            <tr>
+                                <td>mean temp</td>
+                                <td>24</td>
+                                <td>C</td>
+                            </tr>
+                            <tr>
+                                <td>mean dewpoint</td>
+                                <td>6</td>
+                                <td>C</td>
+                            </tr>
+                            <tr>
+                                <td>daily precipitation</td>
+                                <td>15</td>
+                                <td>mm</td>
+                            </tr>
+                            <tr>
+                                <td>surface pressure</td>
+                                <td>0.005</td>
+                                <td>hPa</td>
+                            </tr>
+                            <tr>
+                                <td>sea level pressure</td>
+                                <td>0.0012</td>
+                                <td>hPa</td>
+                            </tr>
+                            <tr>
+                                <td>u wind component</td>
+                                <td>1.8</td>
+                                <td>m/s</td>
+                            </tr>
+                            <tr>
+                                <td>v wind component</td>
+                                <td>0.78</td>
+                                <td>m/s</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>            
+        </div>
+    </main>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
