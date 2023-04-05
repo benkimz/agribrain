@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  streamlit_app:
+    image: benkimz/agribrain:streamlit
+    ports:
+      - "8501:8501"
+    restart: always
+  
+  apache_webapp:
+    image: benkimz/agribrain:apache
+    ports:
+      - "80:80"
+    restart: always
