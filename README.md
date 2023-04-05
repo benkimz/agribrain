@@ -5,6 +5,14 @@ Small-scale farmers face challenges in accessing quality information and markets
 ### Running the application
 ---
 
+#### Set up docker:
+---
+```console
+$sudo apt-get update
+$sudo apt-get install docker.io
+$sudo systemctl start docker
+```
+
 #### Beta dep:
 ---
 ```console
@@ -23,14 +31,6 @@ $git clone https://github.com/benkimz/agribrain.git
 ```console
 $cd ./agribrain/alpha-dep/
 ```
-#### Set up docker:
----
-```console
-$sudo apt-get update
-$sudo apt-get install docker.io
-$sudo systemctl start docker
-```
-
 > Start the application:
 
 ```console
