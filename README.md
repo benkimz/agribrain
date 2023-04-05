@@ -9,10 +9,10 @@ Small-scale farmers face challenges in accessing quality information and markets
 ```console
 $git clone https://github.com/benkimz/agribrain.git
 ```
-> Navigate to the directory ```agribrain```
+> Navigate to the directory ```agribrain``` and then to ```alpha-dep``
 
 ```console
-$cd agribrain
+$cd ./agribrain/alpha-dep/
 ```
 #### Set up docker:
 ---
