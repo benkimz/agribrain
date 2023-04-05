@@ -36,3 +36,17 @@ $cd ./agribrain/alpha-dep/
 ```console
 $docker-compose up
 ```
+
+# IMPLEMENTATION:
+---
+The architecture of the AgriBrain project is a microservices-based architecture, with the backend responsible for server-side logic and data storage, the frontend responsible for client-side logic and user interface, and machine learning components used for training and deploying AI models. The project uses Docker for containerization, Google Cloud Platform for hosting and deployment, and Google Earth Engine for visualizing and querying data. The development tools used include Git and Hugging Face.
+
+* Backend: Responsible for handling server-side logic and data storage. This includes implementing the AI models, accessing and storing data, and communicating with the frontend. The backend was developed using Python and SQLite.
+
+* Frontend: Responsible for handling client-side logic and user interface. This includes visualizing data, displaying information, and handling user input. The frontend was developed using Streamlit, HTML 5, JavaScript, and CSS.
+
+* Technologies: Used to facilitate the development and deployment of the application. This includes Docker for containerization, Google Cloud Platform for hosting and deployment, and Google Earth Engine for visualizing and querying data.
+
+* Machine Learning Components: Responsible for training and deploying the AI models used in the project. This includes TensorFlow/Keras API, transformers, and GPT-2.
+
+* Development Tools: Used to facilitate development and collaboration among team members. This includes Git and Hugging Face.
