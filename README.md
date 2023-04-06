@@ -16,7 +16,7 @@ $sudo systemctl start docker
 #### Beta dep:
 ---
 ```console
-$docker run -p 80:80 benkimz/agribrain:beta
+$docker run -p 80:80 benkimz/agribrain:unified
 
 $docker run -p 8501:8501 benkimz/agribrain:streamlit
 
